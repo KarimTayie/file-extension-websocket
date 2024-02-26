@@ -21,8 +21,8 @@ This project implements a WebSocket service using Django that allows clients to 
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
-    cd file-extension-identification
+    git clone https://github.com/KarimTayie/file-extension-websocket.git
+    cd file-extension-websocket
     ```
 2. **Create a virtual environment:**
 

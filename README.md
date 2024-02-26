@@ -39,6 +39,29 @@ This project implements a WebSocket service using Django that allows clients to 
     pip install -r requirements.txt
     ```
 
+    This project relies on `python-magic`. Ensure that `libmagic` is installed on your system:
+
+    - **Debian/Ubuntu:** 
+        ```bash
+        sudo apt-get install libmagic1
+        ```
+
+    - **Windows:** 
+        You'll need DLLs for libmagic. You can fetch them with:
+        ```bash
+        pip install python-magic-bin
+        ```
+
+    - **macOS:**
+        - When using Homebrew: 
+            ```bash
+            brew install libmagic
+            ```
+        - When using MacPorts: 
+            ```bash
+            port install file
+            ```
+
 3. **Set up environment variables:**
    
     Create a `.env` file in the project root directory and define the following variables:
